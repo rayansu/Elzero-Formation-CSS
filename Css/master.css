@@ -1,0 +1,32 @@
+p {
+  background-color: #d5a563;
+  color: white;
+  text-align: center;
+}
+
+.special {
+  background-color: yellowgreen;
+}
+.color1 {
+  background-color: #30011e;
+}
+.rgb {
+  background-color: rgb(25, 255, 5, 50%);
+}
+/* 
+background-color avec image */
+
+.img_background {
+  background-image: url("../img/test1.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
+  background-attachment: fixed;
+}
+
+.img_background p {
+  padding: 25px;
+}
+
+/* background repeat  repeter c'est par defaut 
+repeat-x */
