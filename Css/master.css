@@ -1,6 +1,5 @@
 p {
-  background-color: #d5a563;
-  color: white;
+  color: rgb(231, 110, 110);
   text-align: center;
 }
 
@@ -17,11 +16,14 @@ p {
 background-color avec image */
 
 .img_background {
-  background-image: url("../img/test1.jpg");
+  background-image: url("../img/fig10.jpg"); /*image de fond*/
   background-repeat: no-repeat;
-  height: 800px;
-  width: 800px;
+  background-position: left bottom;
+
+  /*background-position: left top   */
   background-attachment: fixed;
+  /* background-size: cover; l'image couvre toute la page */
+  background-size: contain; /*l'image couvre toute la page et sera toujour visible */
 }
 
 .img_background p {
@@ -30,3 +32,9 @@ background-color avec image */
 
 /* background repeat  repeter c'est par defaut 
 repeat-x */
+
+/*  background-position
+jouer avec la position de l'image 
+*/
+
+
